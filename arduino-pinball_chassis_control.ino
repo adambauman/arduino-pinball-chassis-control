@@ -14,15 +14,15 @@
   
   long time_contactor=0;  
   int time_reset_bumper=300;  // reset bumper system after this timer
-  int time_second_touch=150; // timer to prevent a second ghost touch
-  int time_open_contactor=110; // timer to reset contactor ON state
+  int time_second_touch=290; // default 150 - timer to prevent a second ghost touch
+  int time_open_contactor=30; // default: 110 - timer to reset contactor ON state
   
   boolean go_bumper=false;
   int go_second=0;
   int nb_off=0;
   int nb_on=0;
   int old_val=0;
-  int freq_bumper=25;  // number of count beforr a second touch
+  int freq_bumper=25;  // number of count before a second touch
   boolean bypass=false;
   
 void setup() {
