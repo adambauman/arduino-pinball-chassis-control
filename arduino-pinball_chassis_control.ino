@@ -1,3 +1,30 @@
+// BauTek Pinball Chassis Control
+// Version 1.0, July 2016
+// Written by Adam Bauman (adam@kungfutreachery.net, https://bitbucket.org/adambauman/arduino-pinball_chassis_control)
+//
+// Provides the following chassis control functions for the Bautek Mini Pinball Cabinet:
+//    - Force feedback kicker solenoid control using Xbox 360 feedback motor as the trigger***
+//    - Cabinet RGB LED lighting control (currently running table-specific logo mood lighting)
+//
+//	*** Xbox controller-based solenoid control software and hardware design was created by 
+//      zed @ http://forum.zenstudios.com/showthread.php?6657-Pinball-FX2-full-force-feedback
+//      (Hydris HDS on Youtube.) Thanks for sharing your awesome feedback design!
+//
+//
+//   This program is free software: you can redistribute it and/or modify
+//   it under the terms of the GNU General Public License as published by
+//   the Free Software Foundation, either version 3 of the License, or
+//   (at your option) any later version.
+//
+//   This program is distributed in the hope that it will be useful,
+//   but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+//
+//   You should have received a copy of the GNU General Public License
+//   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 //----Bumpers
   int ledPin = 13; // Arduino LED connected to digital pin 13
   int inPin = 7;   // input freq X360
