@@ -1,14 +1,14 @@
 # README #
 
 ### BauTek Pinball Chassis Control ###
-Written by Adam Bauman* (adam@kungfutreachery.net, https://bitbucket.org/adambauman/arduino-pinball_chassis_control)
+Written by Adam Bauman (adam@kungfutreachery.net, https://bitbucket.org/adambauman/arduino-pinball_chassis_control)
 1.0 (July 2016)
 
 Provides the following chassis control functions for the Bautek Mini Pinball Cabinet:
--	Force feedback kicker solenoid control using Xbox 360 feedback motor as the trigger*
+-	Force feedback kicker solenoid control using Xbox 360 feedback motor as the trigger (see note below)
 -	Cabinet RGB LED lighting control (currently running table-specific logo mood lighting)
 
-* Xbox controller-based solenoid control software and hardware design was created by 
+###Note:### Xbox controller-based solenoid control software and hardware design was created by 
       zed @ http://forum.zenstudios.com/showthread.php?6657-Pinball-FX2-full-force-feedback
       (Hydris HDS on Youtube.) Thanks for sharing your awesome feedback design!
 
